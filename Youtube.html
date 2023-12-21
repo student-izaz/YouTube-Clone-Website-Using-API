@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Website Clone Using API</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Youtube.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="logo">
+            <img src="images/logo.webp" alt="">
+        </div>
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="user-option">
+            <i class="fa-solid fa-video"></i>
+            <i class="fa-solid fa-bell"></i>
+            <div class="user-dp">
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- sidebar -->
+    <div class="side-bar">
+        <a href="#" class="links active"><i class="fa-sharp fa-solid fa-house"></i><p>Home</p></a>
+        <a href="#" class="links"><i class="fa-brands fa-tiktok"></i><p>Shorts</p></a>
+        <a href="#" class="links"><i class="fa-solid fa-folder-plus"></i><p>Subscription</p></a>
+        <hr class="separator">
+        <a href="#" class="links"><i class="fa-solid fa-folder-open"></i><p>Library</p></a>
+        <a href="#" class="links"><i class="fa-solid fa-circle-play"></i><p>Your video</p></a>
+        <a href="#" class="links"><i class="fa-regular fa-clock"></i><p>Watch later</p></a>
+        <a href="#" class="links"><i class="fa-solid fa-thumbs-up"></i><p>Liked video</p></a>
+        <hr class="separator">
+        <h3 class="links" style="font-size: 18px; color: #f0f0f0; font-weight: 600;">Explore</h3>
+        <a href="#" class="links"><i class="fa-solid fa-fire"></i><p>Trending</p></a>
+        <a href="#" class="links"><i class="fa-solid fa-bag-shopping"></i><p>Shopping</p></a>
+        <a href="#" class="links"><i class="fa-solid fa-music"></i><p>Music</p></a>
+        <a href="#" class="links"><i class="fa-solid fa-video"></i><p>Movie</p></a>
+        <a href="#" class="links"><i class="fa-solid fa-signal"></i><p>Live</p></a>
+        <a href="#" class="links"><i class="fa-solid fa-gamepad"></i><p>Gaming</p></a>
+        <a href="#" class="links"><i class="fa-solid fa-trophy"></i><p>Sport</p></a>
+
+
+    </div>
+
+    <!-- Filters -->
+    <div class="filters">
+        <button class="filter-option active">all</button>
+        <button class="filter-option">css</button>
+        <button class="filter-option">web development</button>
+        <button class="filter-option">python</button>
+        <button class="filter-option">entertainment</button>
+        <button class="filter-option">marvel</button>
+        <button class="filter-option">javascript</button>
+        <button class="filter-option">artificial intelligence</button>
+        <button class="filter-option">machine learning</button>
+        <button class="filter-option">trending</button>
+        <button class="filter-option">artificial intelligence</button>
+        <button class="filter-option">machine learning</button>
+        <button class="filter-option">trending</button>
+    </div>
+
+    <!-- Video -->
+    <div class="video-container">
+        
+    </div>
+
+    <div class="failed-connection">
+        <div class="failed-connection-contant">
+            <h2>Connect to the internet</h2>
+            <p>You're offline. Check your connection.</p>
+            <p class="retry">Retry</p>
+        </div>
+    </div>
+    
+
+    
+
+    <script src="Youtube.js"></script>
+</body>
+</html>
